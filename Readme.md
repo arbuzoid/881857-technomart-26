@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Ксенофонтов](https://up.htmlacademy.ru/htmlcss/26/user/881857).
-* Наставник: `Сергей Зубов`(https://htmlacademy.ru/profile/id208340).
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/id208340).
 
 ---
 
