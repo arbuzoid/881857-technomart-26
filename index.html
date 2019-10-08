@@ -39,7 +39,7 @@
 			</nav>
 		</header>
 		<main>
-			<h1>Техномарт - интернет-магазин строительных материалов и инструментов для ремонта</h1>
+			<h1 class="visually-hidden">Техномарт - интернет-магазин строительных материалов и инструментов для ремонта</h1>
 			<div>
 				<div>
 					<div>
@@ -79,8 +79,8 @@
 					<li>
 						<a href="">
 							<img src="img/perforator_1_index.jpg" alt="Перворатор BOSCH BFG 9000" width="218" height="170" >
+							<h3>Перворатор BOSCH<br>BFG 9000</h3>
 						</a>
-						<h3><a href="">Перворатор BOSCH<br>BFG 9000</a></h3>
 						<span>32500 Р.</span>
 						<a href="">25500 Р.</a>
 						<div>
@@ -90,9 +90,9 @@
 					</li>
 					<li>
 						<a href="">
-							<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 3000" width="218" height="170" >
+							<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 3000" width="218" height="170">
+							<h3>Перворатор BOSCH<br>BFG 3000</h3>
 						</a>
-						<h3><a href="">Перворатор BOSCH<br>BFG 3000</a></h3>
 						<span>25500 Р.</span>
 						<a href="">15500 Р.</a>
 						<div>
@@ -103,8 +103,8 @@
 					<li>
 						<a href="">
 							<img src="img/perforator_2.jpg" alt="Перворатор BOSCH BFG 6000" width="218" height="170" >
+							<h3>Перворатор BOSCH<br>BFG 6000</h3>
 						</a>
-						<h3><a href="">Перворатор BOSCH<br>BFG 6000</a></h3>
 						<span>30500 Р.</span>
 						<a href="">25500 Р.</a>
 						<div>
@@ -115,8 +115,8 @@
 					<li>
 						<a href="">
 							<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 2000" width="218" height="170" >
+							<h3>Перворатор BOSCH<br>BFG 2000</h3>
 						</a>
-						<h3><a href="">Перворатор BOSCH<br>BFG 2000</a></h3>
 						<a href="">12500 Р.</a>
 						<div>
 							<a href="">Купить</a>
@@ -164,7 +164,7 @@
 				<!--Тут слайдер: Доставка-Гарантия-Кредит-->
 			</section>
 			<section>
-				<h2>Подробнее о компании</h2>
+				<h2  class="visually-hidden">Подробнее о компании</h2>
 				<div>
 					<h3>Компания «Техномарт»</h3>
 					<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -225,5 +225,42 @@
 				</p>
 			</div>
 		</footer>
+		<section class="visually-hidden">
+			<h3 class="visually-hidden">Напишите нам</h3>
+			<form action="https://echo.htmlacademy.ru" method="post" id="write-us">
+				<button type="button">Закрыть</button>
+				<p>
+					<label>
+						Ваше имя:
+						<input type="text" name="write-us-user-name" placeholder="Имя Фамилия" value="">
+					</label>
+				</p>
+				<p>
+					<label>
+						Ваш e-mail:
+						<input type="text" name="write-us-user-email" placeholder="email@example.com" value="">
+					</label>
+				</p>
+				<p>
+					<label>
+						Текст письма:
+						<textarea form="write-us" name="write-us-user-text" placeholder="В свободной форме" rows="4" value=""></textarea>
+					</label>
+				</p>
+				<button type="submit">Отправить</button>
+			</form>
+		</section>
+		<section class="visually-hidden">
+			<p>
+				<img src="img/map-big.png" alt="Адрес офиса: г.Санкт-Петербург, ул. Большая Конюшенная, 19/8" width="940" height="446">
+			</p>
+			<button type="button">Закрыть</button>
+		</section>
+		<section class="visually-hidden">
+			<p>Товар добавлен в корзину</p>
+			<a href="#">Оформить заказ</a>
+			<button>Продолжить покупки</button>
+			<button>Закрыть</button>
+		</section>
 	</body>
 </html>
