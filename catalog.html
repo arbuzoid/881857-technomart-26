@@ -52,7 +52,62 @@
 			<h1>Перфораторы</h1>
 			<div>
 				<p>Фильтр:</p>
-				<!--Здесь форма выбора Цена, Производители, Питание-->
+				<!--Здесь форма выбора Цена-->
+				<form action="https://echo.htmlacademy.ru" method="get">
+					<fieldset>
+						<legend>Производители:</legend>
+						<ul>
+							<li>
+								<label>
+									<input type="checkbox" name="bosch" checked>
+									Bosch
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="interscol">
+									Интерскол
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="makita" checked>
+									Makita
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="dewalt">
+									Dewalt
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="hitachi">
+									Hitachi
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Питание</legend>
+						<ul>
+							<li>
+								<label>
+									<input type="radio" name="power" value="batery">
+									Аккумуляторные
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="power" value="net">
+									Сеть
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+				</form>
+				<button type="submit">Показать</button>
 			</div>	
 			<div>
 				<div>
@@ -64,13 +119,13 @@
 					<a><!--CSS по убыванию--></a>
 				</div>
 				<section>
-					<h2>Список перфораторов</h2>
+					<h2  class="visually-hidden">Список перфораторов</h2>
 					<ul>
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 3000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 3000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 3000</a></h3>
 							<span>22500 Р.</span>
 							<a href="">15500 Р.</a>
 							<div>
@@ -81,8 +136,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_2.jpg" alt="Перворатор BOSCH BFG 6000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 6000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 6000</a></h3>
 							<span>30500 Р.</span>
 							<a href="">25500 Р.</a>
 							<div>
@@ -93,8 +148,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 2000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 2000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 2000</a></h3>
 							<span></span>
 							<a href="">12500 Р.</a>
 							<div>
@@ -105,8 +160,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 3000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 3000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 3000</a></h3>
 							<span>22500 Р.</span>
 							<a href="">15500 Р.</a>
 							<div>
@@ -117,8 +172,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_2.jpg" alt="Перворатор BOSCH BFG 6000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 6000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 6000</a></h3>
 							<span>30500 Р.</span>
 							<a href="">25500 Р.</a>
 							<div>
@@ -129,8 +184,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 2000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 2000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 2000</a></h3>
 							<span></span>
 							<a href="">12500 Р.</a>
 							<div>
@@ -141,8 +196,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 3000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 3000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 3000</a></h3>
 							<span>22500 Р.</span>
 							<a href="">15500 Р.</a>
 							<div>
@@ -153,8 +208,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_2.jpg" alt="Перворатор BOSCH BFG 6000" width="218" height="170" >
+								<h3>Перворатор BOSCH<br>BFG 6000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 6000</a></h3>
 							<span>30500 Р.</span>
 							<a href="">25500 Р.</a>
 							<div>
@@ -165,8 +220,8 @@
 						<li>
 							<a href="">
 								<img src="img/perforator_1.jpg" alt="Перворатор BOSCH BFG 2000" width="218" height="170">
+								<h3>Перворатор BOSCH<br>BFG 2000</h3>
 							</a>
-							<h3><a href="">Перворатор BOSCH<br>BFG 2000</a></h3>
 							<span></span>
 							<a href="">12500 Р.</a>
 							<div>
@@ -229,5 +284,13 @@
 				</p>
 			</div>
 		</footer>
+		<section class="visually-hidden">
+			<p>Товар добавлен в корзину</p>
+			<p>
+				<a href="#">Оформить заказ</a>
+				<button>Продолжить покупки</button>
+			</p>
+			<button>Закрыть</button>
+		</section>
 	</body>
 </html>
