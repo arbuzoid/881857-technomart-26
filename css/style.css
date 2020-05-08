@@ -97,17 +97,17 @@ a {
 
 .header .btn {
 	text-transform: none;
-	background-color: #293449; 
+	background-color: #293449;
 }
 
 .button-bookmarks:hover,
 .button-cart:hover {
-	background-color: #212a3a; 
+	background-color: #212a3a;
 }
 
 .button-bookmarks:active,
 .button-cart:active {
-	background-color: #161d29; 
+	background-color: #161d29;
 }
 
 .header .has-item {
@@ -127,11 +127,11 @@ a {
 }
 
 .button-order:hover {
-	background-color: #5fbb2d; 
+	background-color: #5fbb2d;
 }
 
 .button-order:active {
-	background-color: #518534; 
+	background-color: #518534;
 }
 
 .header .description {
@@ -185,11 +185,11 @@ a {
 	text-decoration: underline;
 }
 
-.acc-links a:hover{
+.acc-links a:hover {
 	color: #ee3643;
 }
 
-.acc-links a:active{
+.acc-links a:active {
 	color: #32425c;
 	opacity: 0.3;
 }
@@ -427,12 +427,12 @@ a {
 	inset 0 1px 0 0px #405069;
 }
 
-.button-service:hover{
+.button-service:hover {
 	background-color: #293449;
 	color: #ffffff;
 }
 
-.service-current{
+.service-current {
 	color: #32425c;
 	background-color: #ffffff;
 	border: none;
@@ -459,8 +459,8 @@ a {
 .footer-main a {
 	font-size: 18px;
 	line-height: 24px;
-	color: #f3f7f9; 
-	background-color: #32425c; 
+	color: #f3f7f9;
+	background-color: #32425c;
 }
 
 .footer-main a {
@@ -488,7 +488,7 @@ a {
 	padding-top: 20px;
 	padding-right: 42px;
 	padding-bottom: 20px;
-	padding-left: 42px; 
+	padding-left: 42px;
 }
 
 .copyrights,
@@ -505,7 +505,7 @@ a {
 
 /*--MODAL--*/ 
 .write-us {
-	box-shadow: inset 0 7px 0 0 #ff5257; 
+	box-shadow: inset 0 7px 0 0 #ff5257;
 }
 
 .write-us label {
@@ -624,7 +624,7 @@ a {
 	background-color: transparent;
 }
 
-.filter-producer-list label{
+.filter-producer-list label {
 	font-size: 15px;
 	line-height: 20px;
 }
@@ -685,4 +685,3 @@ a {
 .page-desc {
 	background-color: #f2f6f8;
 }
-
