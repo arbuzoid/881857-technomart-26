@@ -235,6 +235,7 @@ a {
 .promo-block p {
 	font-size: 24px;
 	line-height: 30px;
+	font-weight: 700;
 	margin: 0;
 }
 
@@ -278,11 +279,25 @@ a {
 .section-title {
 	font-size: 30px;
 	line-height: 30px;
+	font-weight: 400;
 	color: #32425c;
 	text-transform: uppercase;
 	padding: 30px;
 	padding-bottom: 29px;
 	padding-left: 28px;
+}
+
+.page-desc .section-title {
+	color: #000000;
+	font-kerning: none;
+	padding-top: 68px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0;
+}
+
+.page-desc .text {
+	font-kerning: none;
 }
 
 .title-line {
@@ -357,6 +372,7 @@ a {
 }
 
 .item-actions .button-buy {
+	font-weight: 400;
 	color: #ffffff;
 	background-color: #63a63e;
 	box-shadow: inset 0 -3px 0 0 #367315;
@@ -373,6 +389,7 @@ a {
 }
 
 .item-actions .button-bookmark {
+	font-weight: 400;
 	color: #32425c;
 	box-shadow: inset 0 0 0 3px #63a63e;
 	border-radius: 3px;
@@ -442,7 +459,7 @@ a {
 
 .text {
 	font-family: "PT Sans", "Arial", sans-serif;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
@@ -455,14 +472,15 @@ a {
 }
 
 .button-service {
+	font-size: 21px;
+	color: #ffffff;
+	font-weight: 700;
 	width: 240px;
 	padding-top: 14px;
 	padding-bottom: 18px;
 	padding-left: 22px;
 	text-align: left;
-	font-size: 21px;
 	line-height: 30px;
-	color: #ffffff;
 	background-color: #32425c;
 	border: none;
 	box-shadow: inset 0 -1px 0 0px #293449, 
@@ -490,6 +508,7 @@ a {
 	font-size: 36px;
 	line-height: 36px;
 	color: #32425c;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
@@ -689,6 +708,8 @@ a {
 	border: 1px solid #e5e5e5;
 	border-radius: 3px;
 	padding: 10px 15px;
+	padding-top: 9px;
+	padding-right: 14px;
 }
 
 .button-action:hover {
